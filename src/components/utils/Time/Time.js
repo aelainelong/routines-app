@@ -1,18 +1,18 @@
-const getTimePeriod = (currentHour) => {
-  let timePeriod;
-  
+const getTimePhase = (currentHour) => {
+  let TimePhase;
+
   if(currentHour < 12){
-    timePeriod = "AM";
+    TimePhase = "AM";
   } else {
-    timePeriod = "PM";
+    TimePhase = "PM";
   }
-  
-  return timePeriod;
+
+  return TimePhase;
 }
 
 const getTimeGreeting = (currentHour) => {
   let timeGreeting;
-  
+
   if(currentHour < 12) {
     timeGreeting = "Good morning";
   } else if (currentHour > 12 && currentHour < 17){
@@ -22,7 +22,7 @@ const getTimeGreeting = (currentHour) => {
   } else {
     timeGreeting = "Hello";
   }
-  
+
   return timeGreeting;
 }
 
@@ -30,5 +30,5 @@ const currentDate = new Date();
 const currentHour = currentDate.getHours();
 
 export const TimeStamp = currentDate.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
-export const TimePeriod = getTimePeriod(currentHour);
+export const TimePhase = getTimePhase(currentHour);
 export const TimeGreeting = getTimeGreeting(currentHour);

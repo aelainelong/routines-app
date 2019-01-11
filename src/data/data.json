@@ -1,0 +1,144 @@
+{
+  "user": {
+    "name": "Ashley",
+    "settings": {
+      "_timezone": "",
+      "_display_steps_in_format": "list",
+      "_display_step_images": false,
+      "_collapse_dashboard_products": false
+    },
+    "routines": [
+      {
+        "id": "r01",
+        "title": "Morning Skin Care Routine",
+        "time_phase": "AM",
+        "tags": [
+          "health",
+          "beauty"
+        ],
+        "steps": [
+          {
+            "id": "r01-s01",
+            "label": "Sample Step 1",
+            "desc": "This is a sample description of a sample step in a sample routine. This is for the AM skincare routine.",
+            "products": [
+              {
+                "id": "p01",
+                "usage": [
+                  1,
+                  "oz"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "r01-s02",
+            "label": "Sample Step 2",
+            "desc": "This is a sample description of a sample step in a sample routine. This is for the AM skincare routine.",
+            "products": [
+              {
+                "id": "p01",
+                "usage": [
+                  1,
+                  "oz"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "r02",
+        "title": "Bedtime Skin Care Routine",
+        "time_phase": "PM",
+        "tags": [
+          "health",
+          "beauty"
+        ],
+        "steps": [
+          {
+            "id": "r02-s01",
+            "label": "Sample Step 1",
+            "desc": "This is a sample description of a sample step in a sample routine. This is for the PM skincare routine.",
+            "products": [
+              {
+                "id": "p01",
+                "usage": [
+                  1,
+                  "oz"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "r02-s02",
+            "label": "Sample Step 2",
+            "desc": "This is a sample description of a sample step in a sample routine. This is for the PM skincare routine.",
+            "products": [
+              {
+                "id": "p01",
+                "usage": [
+                  1,
+                  "oz"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "products": [
+      {
+        "id": "p01",
+        "name": "Hydrating Facial Cleanser",
+        "brand": "Cerave",
+        "tags": [
+          "health",
+          "beauty"
+        ],
+        "type": "cleanser",
+        "formula": "gel",
+        "unit_type": "oz",
+        "unit_volume": 12,
+        "remaining_volume": 12,
+        "active_ingredients": [
+          "Water (Purified)",
+          "Glycerin",
+          "Behentrimonium Methylsulfate/Cetearyl Alcohol",
+          "Ceramide 3",
+          "Ceramide 6 11",
+          "Ceramide 1",
+          "Hyaluronic Acid",
+          "Cholesterol",
+          "Polyoxyl 40 Stearate",
+          "Glyceryl Monostearate",
+          "Stearyl Alcohol",
+          "Polysorbate 20",
+          "Potassium Phosphate",
+          "Dipotassium Phosphate",
+          "Sodium Lauroyl Lactylate",
+          "Cetearyl Alcohol",
+          "Disodium EDTA",
+          "Phytosphingosine",
+          "Methylparaben",
+          "Propylparaben",
+          "Carbomer",
+          "Xanthan Gum"
+        ],
+        "more_info": "https://www.cerave.com/our-products/cleansers/hydrating-facial-cleanser",
+        "purchase_info": {
+          "price": "$14.99",
+          "retailers": [
+            {
+              "name": "Amazon",
+              "product_url": "https://www.amazon.com/gp/product/B01MSSDEPK/ref=as_li_tl?ie=UTF8&tag=ceravehydratingcleanser-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B01MSSDEPK&linkId=0e4014e09a748299b66df48c8fd1c8a9&th=1"
+            },
+            {
+              "name": "Walgreens"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

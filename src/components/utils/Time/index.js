@@ -1,1 +1,1 @@
-export { TimeStamp, TimePeriod, TimeGreeting } from './Time';
+export { TimeStamp, TimePhase, TimeGreeting } from './Time';

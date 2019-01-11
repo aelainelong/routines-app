@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import Greeting from '../../../components/home/Greeting';
+import StartRoutines from '../../../components/home/StartRoutines';
 
 class Home extends Component {
   render() {
@@ -8,6 +9,7 @@ class Home extends Component {
       <div className="Home">
         <p>This is the home view.</p>
         <Greeting />
+        <StartRoutines />
       </div>
     );
   }
